@@ -1,0 +1,23 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+}
+button{
+    height: 35px;
+    width: 250px;
+    background-color: purple;
+    border: 1px solid black;
+    color: white;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blueviolet;
+}
+button:active{
+    background-color: rgb(70, 12, 124);
+}
