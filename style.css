@@ -7,17 +7,20 @@
 }
 button{
     height: 35px;
-    width: 250px;
+    width: 200px;
     background-color: purple;
     border: 1px solid black;
     color: white;
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:10px ;
     cursor: pointer;
+    box-shadow: 0 0 7px black;
 }
 button:hover{
     background-color: blueviolet;
+    box-shadow: 0 0 7px purple;
 }
 button:active{
-    background-color: rgb(70, 12, 124);
+    background-color: #460c7c;
 }
