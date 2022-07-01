@@ -1,26 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .container{
-    position: absolute;
+    position: absolute;                  /*centered the div*/
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     justify-content: center;
 }
 button{
-    height: 35px;
-    width: 200px;
-    background-color: purple;
-    border: 1px solid black;
+    width: 300px;
+    background-color: black;
+    border: 1px solid white;
     color: white;
-    font-size: larger;
+    font-size: 1.8rem;
+    font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius:10px ;
     cursor: pointer;
     box-shadow: 0 0 7px black;
+    padding: 2.5rem;
+
 }
 button:hover{
-    background-color: blueviolet;
+    background-color: #1d1c1c;
     box-shadow: 0 0 7px purple;
 }
 button:active{
-    background-color: #460c7c;
+    background-color: #403449;
+    transform: scale(0.95);
 }
