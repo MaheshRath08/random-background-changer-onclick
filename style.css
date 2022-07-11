@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    transition: 0.3s background linear;
+}
 .container{
     position: absolute;                  /*centered the div*/
     top: 50%;
@@ -20,14 +23,15 @@ button{
     border-radius:10px ;
     cursor: pointer;
     box-shadow: 0 0 7px black;
-    padding: 2.5rem;
+    padding: 1.5rem;
 
 }
 button:hover{
     background-color: #1d1c1c;
-    box-shadow: 0 0 7px purple;
+    box-shadow: 0 0 7px black;
 }
 button:active{
     background-color: #403449;
     transform: scale(0.95);
+    box-shadow: 0;
 }
